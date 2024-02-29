@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on **<a href="https://www.esign-la.com">E-Sign S.A</a>** and **<a href="https://dedsec.cl">DEDSEC CORP.</a>** (Personal Proyect)
 
-- 🌱 I’m currently learning **Angular 17** and **Java**
+- 🌱 I’m currently learning **TypeScript** and **Angular 17**
 
 - 💬 Ask me about **HTML, CSS, Python, NodeJS, JavaScript, MySQL, Angular, API´s, Servers, Java**
 
