@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-22T00:59:36.648Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="wMuFzxjegqhKcA81boKr" version="24.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-22T01:04:14.505Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="8HqUXRWY0a4Jc9bjVhDr" version="24.0.7" type="github" pages="2">
   <diagram name="Diragrama de clases" id="-_MHmMSYFcSHYsvgNQ9a">
     <mxGraphModel dx="1195" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -70,11 +70,11 @@
             <mxPoint x="440" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1D4vYp2MGsvRdeYgRLv9-1" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;align=left;verticalAlign=bottom;rounded=0;entryX=0.006;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0iqqLVjieEFnERAhnOkb-10" target="Xwf4BX6eSTh_paTz8yUK-2">
-          <mxGeometry x="-1" y="18" relative="1" as="geometry">
+        <mxCell id="1D4vYp2MGsvRdeYgRLv9-1" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;align=left;verticalAlign=bottom;rounded=0;entryX=0.006;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0iqqLVjieEFnERAhnOkb-10" target="Xwf4BX6eSTh_paTz8yUK-2">
+          <mxGeometry x="0.8574" y="7" relative="1" as="geometry">
             <mxPoint x="330" y="500" as="sourcePoint" />
             <mxPoint x="460" y="500" as="targetPoint" />
-            <mxPoint x="-8" y="-15" as="offset" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
