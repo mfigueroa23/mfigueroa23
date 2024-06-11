@@ -29,7 +29,7 @@ sleep 1
 # Agregando el DNS interno
 echo '\n[info]: Agregando al DNS interno el sitio...\n'
 cd /etc
-sed -i '10 a 127.0.0.1 www.example.local' hosts
+sed -i '3 a 127.0.0.1 www.example.local' hosts
 
 sleep 1
 
