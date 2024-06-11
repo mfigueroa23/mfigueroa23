@@ -10,7 +10,7 @@ sleep 2
 echo '\n[info]: Creando el vHost...\n'
 cd /etc/apache2/sites-available
 cp 000-default.conf www1_example_local.conf
-sed -i '10 a         ServerName www.exmaple.local' www1_example_local.conf
+sed -i '10 a ServerName www.exmaple.local' www1_example_local.conf
 sed -i 's/html/example/g' www1_example_local.conf
 sudo a2ensite www1_example_local.conf
 
