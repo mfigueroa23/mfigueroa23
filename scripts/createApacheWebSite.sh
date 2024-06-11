@@ -1,11 +1,8 @@
 #!/bin/bash
 
-# Garantizamos el super usuario
-sudo su
-
 # Intalando paquetes necesarios
 echo '\n[info]: Instalando paquetes...\n'
-sudo apt update -y && sudo apt-get intall w3m apache2 -y
+sudo apt update -y && sudo apt-get install w3m apache2 -y
 
 sleep 1
 
