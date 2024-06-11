@@ -16,12 +16,6 @@ sudo a2ensite www1_example_local.conf
 
 sleep 2
 
-# Reiniciando servicio
-echo '\n[info]: Reiniciando servicio...\n'
-systemctl restart apache2
-
-sleep 2
-
 # creamos los archivos para www-data
 echo '\n[info]: Creando el directorio para www-data...\n'
 cd /var/www/
@@ -36,6 +30,13 @@ sleep 2
 echo '\n[info]: Agregando al DNS interno el sitio...\n'
 cd /etc
 sed -i '3 a 127.0.0.1 www.example.local' hosts
+
+sleep 2
+
+# Reiniciando servicio
+echo '\n[info]: Reiniciando servicio y desactivando configuracion por default...\n'
+sudo unlink /etc/apache2/sites-enabled/000-default.conf
+systemctl restart apache2
 
 sleep 2
 
