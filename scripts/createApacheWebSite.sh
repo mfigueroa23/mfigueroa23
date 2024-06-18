@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# EVAL 3
+echo '\n[info]: SCRIPT EVALUACION 3 MARCO.FIGUEROA\n'
+
+sleep 4
+
 # Intalando paquetes necesarios
 echo '\n[info]: Instalando paquetes...\n' 
 sudo apt install w3m apache2 -y
