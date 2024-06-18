@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Intalando paquetes necesarios
-echo '\n[info]: Instalando paquetes...\n'
-sudo apt update -y && sudo apt-get install w3m apache2 -y
+echo '\n[info]: Instalando paquetes...\n' 
+sudo apt install w3m apache2 -y
 
 sleep 2
 
