@@ -33,6 +33,18 @@ sed -i '3 a 127.0.0.1 www.example.local' hosts
 
 sleep 2
 
+# Verificando conectividad
+echo '\n[info]: Verificando conectividad...\n'
+ping 8.8.8.8 -c 4
+
+sleep 2
+
+# Verificado conectividad al sitio
+echo '\n[info]: Verificando conexión con el nuevo sitio...\n'
+ping www.example.local -c 4
+
+sleep 2
+
 # Reiniciando servicio
 echo '\n[info]: Reiniciando servicio y desactivando configuracion por default...\n'
 sudo unlink /etc/apache2/sites-enabled/000-default.conf
