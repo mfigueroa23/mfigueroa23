@@ -21,7 +21,7 @@ echo '\n[info]: Creando el directorio para www-data...\n'
 cd /var/www/
 mkdir example
 touch ./example/index.html
-echo '<h1>Hola!!!, el sitio <a href="http://www.example.local">http://www.example.local<a/> esta operativo.<h1/>' > ./example/index.html
+echo '<h1>Hola!!!, el sitio <a href="/">http://www.example.local<a/> esta operativo.<h1/>' > ./example/index.html
 sudo chown -R www-data: example
 
 sleep 2
