@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./ListadoPeliculasCS.css">
+        <title>Listado Peliculas - Cine Studio</title>
+    </head>
+    <body>
+        <div name="fondito">
+            <header class="cabecera">
+                <h1>CineStudio</h1>
+                <nav>
+                    <ul>
+                        <a href="/Index.html">Registro de Peliculas</a>
+                    </ul>
+                </nav>
+            </header>
+            <div class="listado">
+                <h1>Listado Peliculas Disponibles</h1>
+                <div class="Tabla">
+                    <table>
+                        <thead>
+                            <th>Nombre</th>
+                            <th>Descripción</th>
+                            <th>Fecha de estreno</th>
+                            <th>Categoría</th>
+                            <th>Precio</th>
+                        </thead>
+                        <tbody id="Tabla-Peliculas">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script>
+        window.onload = function(){
+            fetch('GuardarPeliculas')
+            .then(function(response){
+                console.log("esta res la respuesta api", response)
+                return response.json();
+            })
+            .then(function(data){
+                console.log("Esta es la data transformada",data)
+                var peliculasList = document.getElementById('Tabla-Peliculas');
+                data.data.forEach(function(pelicula){
+                    console.log("esta res la respuesta de peliculas", pelicula)
+                    var row = document.createElement('tr');
+                    row.innerHTML = '<td>' + pelicula.Nombre + '</td>' +
+                                    '<td>' + pelicula.Descripcion + '</td>' +
+                                    '<td>' + new Date(pelicula.Fecha).toLocaleDateString() + '</td>' +
+                                    '<td>' + pelicula.Categoria + '</td>' +
+                                    '<td>' + pelicula.Precio + '</td>';
+                    peliculasList.appendChild(row);
+                })
+            })
+        }
+    </script>
+    </body>
+</html>

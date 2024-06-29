@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./RegistroPeliculasCS.css">
+        <!-- <script src="./Conexion.js"></script> -->
+        <title>Registrar Peliculas - CineStudio</title>
+    </head>
+    <body>
+        <header class="cabecera">
+            <h1>CineStudio</h1>
+            <nav>
+                <ul>
+                    <a href="ListadoPeliculasCS.html">Listado Peliculas</a>
+                </ul>
+            </nav>
+        </header>
+        <div class="formulario">
+
+            <h1>Formulario de Peliculas</h1>
+            <form class="peliculas" id="Formulario-pelicula"
+                action="/Guardar_pelicula" method="post">
+                <br>
+                <div>
+                    <label for="nombre">Nombre Pelicula:</label><br>
+                    <input type="text" id="nombre" name="nombre"
+                        placeholder="Alicia en el pais de las maravillas"
+                        required><br>
+                </div>
+                <div>
+                    <label for="descripcion">Descripcion:</label><br>
+                    <input type="text" id="descripcion" name="descripcion"
+                        placeholder="Detalle de la pelicula" required><br>
+                </div>
+                <div>
+                    <label for="fecha">Fecha de estreno: </label> <br>
+                    <input type="date" id="fecha" name="fecha" required><br>
+                </div>
+                <div>
+                    <label for="categoria">Categoria:</label> <br>
+                    <select name="categoria" id="categoria" required>
+                        <option value="Aventura">Aventura</option>
+                        <option value="Accion">Acción</option>
+                        <option value="Animacion">Animación</option>
+                        <option value="Comedia">Comedia</option>
+                        <option value="Ciencia Ficcion">Ciencia Ficción</option>
+                        <option value="Documental">Documental</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Fantasia">Fantasía</option>
+                        <option value="Horror">Horror</option>
+                        <option value="Romance">Romance</option>
+                        <option value="Suspenso">Suspenso</option>
+                    </select>
+                    <br>
+                </div>
+                <div>
+                    <label for="entrada">Precio Entrada: </label><br>
+                    <input type="number" id="entrada" name="entrada"
+                        placeholder="$1000" required><br>
+                </div>
+                <div class="boton">
+                    <br>
+                    <button id="Guardar" type="submit">Guardar</button>
+                    <br>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
