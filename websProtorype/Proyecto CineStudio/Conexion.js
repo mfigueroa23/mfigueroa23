@@ -7,11 +7,10 @@ const { constants } = require('buffer');
 const app = express();
 
 const MySQL = mysql.createConnection({
-    host: '10.0.6.39',
-    user: 'estudiante',
-    password: 'Info-2023',
+    host: '127.0.0.1',
+    user: 'root',
+    password: 'f3rr4r1.1',
     database: 'cinestudio'
-
 });
 
 app.use(express.urlencoded({ extended: true }));
