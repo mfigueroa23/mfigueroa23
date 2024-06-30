@@ -38,7 +38,7 @@ app.post('/Guardar_pelicula', (req, res) => {
                 message: 'Error al insertar los datos en la base de datos'
             });
         }
-        res.status(200).sendFile(path.join(__dirname, './views/index.html'));
+        res.status(200).sendFile(path.join(__dirname, './views/Index.html'));
     });
 
 });
