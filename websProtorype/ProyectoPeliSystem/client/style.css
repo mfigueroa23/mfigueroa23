@@ -60,6 +60,11 @@ header {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+@media (max-width: 1500px){
+    .sectionCreateMovie{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 .sectionCreateMovie article:nth-child(1) h2,
 .sectionCreateMovie article:nth-child(3) h2 {
