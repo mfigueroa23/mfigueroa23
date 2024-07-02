@@ -90,12 +90,31 @@ async function obtenerTodasLasPeliculas() {
         console.log('[info]: Conectando a la base de datos...');
         await dataSource.connect();
         const connection = await dataSource.getConnection();
-        const query = 'SELECT movieName, movieDescription, movieCategory, movieRelease, moviePrice FROM movies';
+        const query = 'SELECT id, movieName, movieDescription, movieCategory, movieRelease, moviePrice FROM movies';
         const [rows, fields] = await connection.execute(query);
         console.log('[info]: Películas obtenidas correctamente.');
         return rows;
     } catch (error) {
         console.error('[error]: Error al obtener las películas:', error);
+        return false;
+    } finally {
+        if (dataSource.pool) {
+            await dataSource.disconnect();
+        }
+    }
+}
+
+async function eliminarPelicula(id){
+    try {
+        console.log('[info]: Conectando a la base de datos...');
+        await dataSource.connect();
+        const connection = await dataSource.getConnection();
+        const query = 'DELETE FROM movies WHERE id = ?';
+        await connection.execute(query, [id]);
+        console.log('[info]: Película eliminada correctamente.');
+        return true;
+    } catch (error) {
+        console.error('[error]: Error al eliminar la película:', error);
         return false;
     } finally {
         if (dataSource.pool) {
@@ -131,6 +150,21 @@ app.get('/api/listarPeliculas', async (req, res) => {
     } catch (error) {
         console.error('[error]:', error.message);
         res.status(500).json({ status: false, message: 'Ha ocurrido un error al obtener las películas.' });
+    }
+});
+
+app.delete('/api/eliminarPelicula', async (req, res) => {
+    try {
+        const { id } = req.query;
+        const deletePeli = await eliminarPelicula(id);
+        if (deletePeli) {
+            res.json({ status: true, message: 'Película eliminada correctamente.' });
+        } else {
+            res.json({ status: false, message: 'Ha ocurrido un error al eliminar la película.' });
+        }
+    } catch (error) {
+        console.error('[error]:', error.message);
+        res.status(500).json({ status: false, message: 'Ha ocurrido un error al eliminar la película.' });
     }
 });
 
