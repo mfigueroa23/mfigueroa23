@@ -1,6 +1,7 @@
 # imports de librerias
 import random
 import math
+import csv
 
 # variables
 productos = ["Televisor", "Lavadora", "Refrigerador", "Microondas", "Computadora", "Celular", "Impresora", "Cafetera", "Licuadora", "Ventilador"]
@@ -61,3 +62,17 @@ def mediaGeometrica():
         producto *= precio
     resultado = producto ** (1/totalItems)
     print(f'[system]: La media geometrica de los precios es: {resultado}')
+
+def obtenerReporte():
+    print(f'\n[system]: Armando reporte...\n')
+    with open('reporte_precios.csv', mode = 'w', newline = '') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Nombre Producto", "Precio Actual", "Descuento Promocios 10%", "Descuento Membresia 5%", "Precio Final"])
+        i = 0
+        for precio in listadoPrecios:
+            descuentoPromocion = precio * 0.10
+            descuentoMembresia = precio * 0.05
+            precioFinal = precio - descuentoPromocion - descuentoMembresia
+            writer.writerow([ productos[i], precio, descuentoMembresia, descuentoMembresia, precioFinal ])
+            i += 1
+    print('[system]: Reporte generado con exito')

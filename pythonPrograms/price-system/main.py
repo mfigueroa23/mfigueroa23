@@ -11,7 +11,7 @@ userStatisticOption = 0
 while userMainOption != 5:
     # Opciones de menu principal
     printMainMenu()
-    userMainOption = int(input('\n[u] Escoja una opcion [1 - 5]: '))
+    userMainOption = int(input('\n[user] Escoja una opcion [1 - 5]: '))
 
     if userMainOption == 1:
         # Ejecutnado precios aleatorios
@@ -22,7 +22,7 @@ while userMainOption != 5:
         while userPriceOption != 4:
             # Opciones del menu
             printPriceSort()
-            userPriceOption = int(input('\n[u] Escoja una opcion [1 - 4]: '))
+            userPriceOption = int(input('\n[user] Escoja una opcion [1 - 4]: '))
 
             if userPriceOption == 1:
                 # Filtrando productos menores a $800.000
@@ -44,7 +44,7 @@ while userMainOption != 5:
         while userStatisticOption != 5:
             # Opciones del menu
             printStatisticSort()
-            userStatisticOption = int(input('\n[u] Escoja una opcion [1 - 5]: '))
+            userStatisticOption = int(input('\n[user] Escoja una opcion [1 - 5]: '))
 
             if userStatisticOption == 1:
                 # Averiguamos el precio mas alto
@@ -65,6 +65,10 @@ while userMainOption != 5:
 
         # Habilita nuevamente la opcion estadisticas
         userStatisticOption = 0
+
+    if userMainOption == 4:
+        # Obtenemos el reporte segun las reglas de negocio
+        obtenerReporte()
 
 # Salida del programa
 printCloseProgram()
