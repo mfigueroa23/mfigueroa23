@@ -1,6 +1,4 @@
 #include <LiquidCrystal.h>
-
-#include <LiquidCrystal.h>
 LiquidCrystal lcd(5, 6, 8, 9, 10, 11);
 
 int redled = 2;
