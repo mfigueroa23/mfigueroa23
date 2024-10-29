@@ -1,0 +1,37 @@
+networks:
+  red_green_tech:
+    ipam:
+      config:
+        - subnet: 10.101.1.0/24
+
+services:
+  green_tech_cl:
+    container_name: green_tech_cl
+    hostname: green_tech_cl
+    image: nginx:1.25.0
+    restart: always
+    environment:
+      - TZ=America/Santiago
+    volumes:
+      - ./web-green_tech_cl/:/usr/share/nginx/html/
+    networks:
+      red_green_tech:
+        ipv4_address: 10.101.1.10
+    ports:
+      - "80:80"
+      - "443:443"
+
+  green_tech_bbdd:
+    container_name: green_tech_bbdd
+    hostname: green_tech_bbdd
+    image: mysql:8.1.0
+    restart: always
+    env_file:
+      - ./.mysql.env
+    volumes:
+      - ./green_tech_bbdd/:/var/lib/mysql/
+    networks:
+      red_dedsec:
+        ipv4_address: 10.101.1.11
+    ports:
+      - "3306:3306"
