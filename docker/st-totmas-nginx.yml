@@ -1,0 +1,20 @@
+networks:
+  st_tomas_nginx:
+    ipam:
+      config:
+        - subnet: 10.101.1.0/24
+
+services:
+  st_tomas_cl:
+    container_name: st_tomas_cl
+    hostname: st_tomas_cl
+    image: nginx:1.27.2
+    environment:
+      - TZ=America/Santiago
+    volumes:
+      - ./web-content/:/usr/share/nginx/html:ro
+    networks:
+      st_tomas_nginx:
+        ipv4_address: 10.101.1.10
+    ports:
+      - "80:80"
