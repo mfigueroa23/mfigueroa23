@@ -1,0 +1,19 @@
+networks:
+  st_tomas_network:
+    ipam:
+      config:
+        - subnet: 10.101.1.0/24
+
+services:
+  st_tomas_openvpn:
+    image: openvpn/openvpn-as
+    container_name: st_tomas_openvpn
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - 943:943
+      - 443:443
+      - 1194:1194/udp
+    volumes:
+      - ./openvpn:/openvpn
+    restart: unless-stopped
