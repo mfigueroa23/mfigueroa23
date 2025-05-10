@@ -1,0 +1,13 @@
+sku,cantidad,precio,bodega,categoria,producto,total,total_con_iva
+SKU002,50.0,850.0,Bodega B,Papelería,Cuaderno,42500.0,50575.0
+SKU004,120.0,90.0,Bodega C,Papelería,Goma,10800.0,12852.0
+SKU005,40.0,300.0,Bodega A,Papelería,Cartulina,12000.0,14280.0
+SKU006,60.0,950.0,Bodega B,Papelería,Tijeras,57000.0,67830.0
+SKU007,35.0,780.0,Bodega C,Papelería,Corrector,27300.0,32487.0
+SKU008,80.0,150.0,Bodega A,Papelería,Marcador,12000.0,14280.0
+SKU011,90.0,700.0,Bodega A,Papelería,Compás,63000.0,74970.0
+SKU014,70.0,200.0,Bodega A,Papelería,Plumón,14000.0,16660.0
+SKU015,45.0,550.0,Bodega B,Papelería,Archivador,24750.0,29452.5
+SKU016,85.0,1000.0,Bodega C,Papelería,Engrapadora,85000.0,101150.0
+SKU017,95.0,450.0,Bodega A,Papelería,Sacapuntas,42750.0,50872.5
+SKU019,65.0,300.0,Bodega C,Papelería,Perforadora,19500.0,23205.0

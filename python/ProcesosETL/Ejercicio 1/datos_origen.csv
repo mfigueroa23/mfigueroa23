@@ -1,0 +1,21 @@
+sku,cantidad,precio,bodega,categoria,producto
+SKU001,100.0,120.0,Bodega A,,Lápiz
+SKU002,50.0,850.0,Bodega B,Papelería,Cuaderno
+SKU003,,400.0,Bodega A,Papelería,Regla
+SKU004,120.0,90.0,Bodega C,Papelería,Goma
+SKU005,40.0,300.0,Bodega A,Papelería,Cartulina
+SKU006,60.0,950.0,Bodega B,Papelería,Tijeras
+SKU007,35.0,780.0,Bodega C,Papelería,Corrector
+SKU008,80.0,150.0,Bodega A,Papelería,Marcador
+SKU009,,500.0,Bodega B,Papelería,Papel Bond
+SKU010,55.0,,Bodega C,Papelería,
+SKU011,90.0,700.0,Bodega A,Papelería,Compás
+SKU012,,600.0,Bodega B,Papelería,Pegamento
+SKU013,30.0,,Bodega C,Papelería,Papel Crepé
+SKU014,70.0,200.0,Bodega A,Papelería,Plumón
+SKU015,45.0,550.0,Bodega B,Papelería,Archivador
+SKU016,85.0,1000.0,Bodega C,Papelería,Engrapadora
+SKU017,95.0,450.0,Bodega A,Papelería,Sacapuntas
+SKU018,,130.0,Bodega B,Papelería,Cinta
+SKU019,65.0,300.0,Bodega C,Papelería,Perforadora
+SKU020,110.0,,Bodega A,Papelería,Transportador

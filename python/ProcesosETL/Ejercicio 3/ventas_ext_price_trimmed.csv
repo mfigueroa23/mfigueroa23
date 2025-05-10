@@ -1,0 +1,46 @@
+sku,cantidad_vendida,tienda,precio
+CAM002,16.0,Tienda B,43.71
+CAM004,19.0,Tienda A,95.56
+CAM002,2.0,Tienda B,75.88
+CAM003,5.0,,63.88
+CAM003,,Tienda C,24.04
+CAM004,18.0,Tienda A,24.04
+CAM005,3.0,Tienda B,15.23
+CAM004,1.0,Tienda C,87.96
+CAM001,17.0,Tienda A,64.1
+CAM005,16.0,Tienda B,73.73
+CAM004,17.0,Tienda C,11.85
+CAM002,3.0,Tienda B,
+CAM004,3.0,Tienda A,84.92
+CAM001,2.0,Tienda B,29.11
+CAM001,6.0,Tienda A,26.36
+CAM003,9.0,Tienda A,
+CAM004,17.0,Tienda B,37.38
+CAM001,1.0,Tienda A,
+CAM002,11.0,Tienda B,48.88
+CAM001,2.0,Tienda A,36.21
+CAM003,4.0,Tienda C,65.07
+CAM004,9.0,Tienda C,
+CAM001,17.0,Tienda B,36.29
+CAM002,16.0,Tienda C,42.97
+CAM003,7.0,Tienda C,
+CAM001,2.0,Tienda A,80.67
+CAM001,17.0,Tienda C,27.97
+CAM005,1.0,Tienda B,56.28
+CAM001,4.0,Tienda A,
+CAM003,11.0,Tienda C,14.18
+CAM001,8.0,Tienda C,64.68
+CAM005,16.0,Tienda B,25.35
+CAM001,16.0,Tienda B,
+CAM003,8.0,Tienda C,95.4
+CAM002,16.0,Tienda B,96.91
+CAM004,6.0,Tienda C,82.76
+CAM001,1.0,Tienda A,37.42
+,1.0,Tienda C,18.79
+CAM001,5.0,Tienda A,71.58
+CAM002,14.0,Tienda A,49.61
+CAM004,3.0,Tienda B,20.98
+CAM002,7.0,Tienda C,54.57
+CAM001,1.0,Tienda A,13.09
+CAM004,16.0,,91.84
+CAM005,19.0,Tienda C,33.29
