@@ -16,7 +16,7 @@ def cargar_datos(datos, archivo_destino):
 # Funcion para ver los productos vendidos en una tienda
 def productos_vendidos_por_tienda(datos, tienda):
     # Filtrar los datos por la tienda especificada
-    datos_tienda = datos[datos['tienda'] == tienda]
+    datos_tienda = datos[datos['tienda'] == tienda].dropna()
     # Agrupar por SKU y sumar la cantidad vendida
     productos_agrupados = datos_tienda.groupby('sku')['cantidad_vendida'].sum().reset_index()
     # Renombrar las columnas para mayor claridad
@@ -26,7 +26,7 @@ def productos_vendidos_por_tienda(datos, tienda):
 # Funcion para ver las ganancias totales por tienda
 def ganancias_totales_por_tienda(datos):
     # Crear una columna de ganancias (cantidad_vendida * precio)
-    datos['ganancia'] = datos['cantidad_vendida'] * datos['precio']
+    datos['ganancia'] = datos['cantidad_vendida'].dropna() * datos['precio'].dropna()
     # Agrupar por tienda y sumar las ganancias
     ganancias_por_tienda = datos.groupby('tienda')['ganancia'].sum().reset_index()
     # Renombrar las columnas para mayor claridad
@@ -36,7 +36,7 @@ def ganancias_totales_por_tienda(datos):
 # Funcion para ver los productos totales vendidos y sus ganacias totales
 def productos_y_ganancias_totales(datos):
     # Crear una columna de ganancias (cantidad_vendida * precio)
-    datos['ganancia'] = datos['cantidad_vendida'] * datos['precio']
+    datos['ganancia'] = datos['cantidad_vendida'].dropna() * datos['precio'].dropna()
     # Agrupar por SKU y calcular la cantidad total vendida y las ganancias totales
     productos_agrupados = datos.groupby('sku').agg({'cantidad_vendida': 'sum', 'ganancia': 'sum'}).reset_index()
     # Renombrar las columnas para mayor claridad
