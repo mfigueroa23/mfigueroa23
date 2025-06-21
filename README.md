@@ -13,8 +13,8 @@
 ## Estadísticas
 <div align="center">
   <ul style="list-style: none;">
-    <li><img src="https://github-readme-stats.vercel.app/api?username=mfigueroa23&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" /></li>
-    <li><img src="https://github-readme-streak-stats.herokuapp.com/?user=mfigueroa23&theme=tokyonight&hide_border=true" /></li>
-    <li><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mfigueroa23&theme=tokyonight&show_icons=true&hide_border=true&layout=compact" /></li>
+    <img src="https://github-readme-stats.vercel.app/api?username=mfigueroa23&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=mfigueroa23&theme=tokyonight&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mfigueroa23&theme=tokyonight&show_icons=true&hide_border=true&layout=compact" />
   </ul>
 </div>
