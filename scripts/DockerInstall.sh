@@ -27,6 +27,3 @@ sudo usermod -aG docker $USER
 
 # Activating changes to groups
 newgrp docker
-
-# Verifying installation
-sudo systemctl status docker
