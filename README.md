@@ -18,8 +18,8 @@ Full-stack web applications deployed on Kubernetes with modern cloud infrastruct
 | **devsonic.cl** | React 19, Vite, TypeScript, Tailwind CSS 4 | ✅ Live | [devsonic.cl](https://devsonic.cl) |
 | **api.devsonic.cl** | NestJS, Prisma, PostgreSQL 17, TypeScript | ✅ Live | [api.devsonic.cl](https://api.devsonic.cl) |
 | **petsecure.devsonic.cl** | Angular 20, TypeScript, RxJS | ✅ Live | [petsecure.devsonic.cl](https://petsecure.devsonic.cl) |
-| **glpi.devsonic.cl** | IT Asset Management | ✅ Live | Internal |
-| **jarvis.devsonic.cl** | Custom Application | ✅ Live | Internal |
+| **glpi.devsonic.cl** | IT Asset Management | ✅ Live | [glpi.devsonic.cl](https://glpi.devsonic.cl) |
+| **jarvis.devsonic.cl** | N8N Instance | ✅ Live | [jarvis.devsonic.cl](https://petsecure.devsonic.cl) |
 
 **Infrastructure:**
 - Kubernetes cluster with custom resource organization (Resource Type → Project)
