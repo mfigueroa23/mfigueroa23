@@ -20,10 +20,10 @@ I build robust, scalable, and secure systems — from pixel-perfect frontends to
 `PostgreSQL 17` `MySQL 8`
 
 **Infrastructure**
-`Kubernetes` `Docker` `Terraform` `Nginx` `AWS` `Cloudflare` `DigitalOcean`
+`Kubernetes` `Docker` `Terraform` `Nginx` `AWS` `Cloudflare`
 
 **Automation & Scripting**
-`Bash` `Python` `PowerShell` `GitHub Actions`
+`Bash` `Python` `PowerShell` `GitHub Actions` `CI/CD`
 
 **Security**
 `DevSecOps` `HackTheBox` `OverTheWire` `Penetration Testing` `SSL/TLS`
@@ -36,9 +36,6 @@ I build robust, scalable, and secure systems — from pixel-perfect frontends to
 |---------|-------|--------|
 | [devsonic.cl](https://devsonic.cl) | React 19, Vite, TypeScript, Tailwind 4 | ✅ Live |
 | [api.devsonic.cl](https://api.devsonic.cl) | NestJS, Prisma, PostgreSQL 17 | ✅ Live |
-| [petsecure.devsonic.cl](https://petsecure.devsonic.cl) | Angular 20, RxJS | ✅ Live |
-| [glpi.devsonic.cl](https://glpi.devsonic.cl) | IT Asset Management | ✅ Live |
-| [jarvis.devsonic.cl](https://jarvis.devsonic.cl) | N8N Automation | ✅ Live |
 
 All services run on a **self-managed Kubernetes cluster** with multi-namespace isolation, wildcard SSL, and a private Docker registry.
 
@@ -52,4 +49,4 @@ All services run on a **self-managed Kubernetes cluster** with multi-namespace i
 
 ---
 
-*Building the future, one commit at a time.*
+*Building the future, one commit at a time*
