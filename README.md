@@ -32,7 +32,7 @@ Administro sistemas críticos en producción y despliego mis propios proyectos e
 `PostgreSQL` `MySQL`
 
 **Seguridad**
-`TLS/SSL` `Certificados digitales` `HackTheBox` `OverTheWire`
+`TLS/SSL` `Certificados digitales` `PTES` `OWASP` `Hardening` 
 
 ---
 
@@ -42,8 +42,6 @@ Administro sistemas críticos en producción y despliego mis propios proyectos e
 |----------|-------|--------|
 | [devsonic.cl](https://devsonic.cl) | React 19, Vite, TypeScript, Tailwind 4 | ✅ En línea |
 | [api.devsonic.cl](https://api.devsonic.cl) | NestJS, PostgreSQL 17 | ✅ En línea |
-
-Todo corre en un **clúster Kubernetes autogestionado**: aislamiento por namespaces, SSL wildcard, registro Docker privado y despliegue automatizado con GitHub Actions.
 
 ---
 
