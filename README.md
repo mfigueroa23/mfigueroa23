@@ -10,7 +10,7 @@ Administro sistemas críticos en producción y despliego mis propios proyectos e
 
 ## Sobre mí
 
-- 🖥️ **+3 años** en soporte técnico y administración de sistemas críticos (Linux, Windows y bases de datos), asegurando el uptime de servicios en producción.
+- 🖥️ **3 años** en soporte técnico y administración de sistemas críticos (Linux, Windows y bases de datos), asegurando el uptime de servicios en producción.
 - 🔐 Especializado en **certificados digitales y TLS/SSL**, trabajando bajo metodología **Scrum**.
 - 🎓 **Ingeniero en Informática**
 - 🚀 Construyo y opero mis propios proyectos aplicando prácticas **DevOps** de punta a punta: del código al clúster.
@@ -19,15 +19,19 @@ Administro sistemas críticos en producción y despliego mis propios proyectos e
 
 ## Stack
 
-**DevOps & CI/CD** `Kubernetes` `Docker` `GitHub Actions`
+**Cloud & Infraestructura** `AWS` `Terraform` `Cloudflare` `Vercel` `Nginx`
 
-**Sistemas & Redes** `Linux` `Windows Server` `Nginx` `Networking` `Bash` `PowerShell` `Python`
+**DevOps & CI/CD** `Kubernetes` `Docker` `GitHub Actions` `Git`
 
-**Desarrollo** `React` `TypeScript` `Tailwind CSS` `NestJS` `Node.js`
+**Sistemas & Redes** `Linux` `Windows Server` `Networking` `Bash` `PowerShell`
+
+**Observabilidad & Automatización** `Grafana` `n8n` `GLPI`
+
+**Seguridad** `TLS/SSL` `PKI` `Hardening` `OWASP` `PTES`
+
+**Desarrollo** `Python` `FastAPI` `TypeScript` `Node.js` `NestJS` `React` `Next.js`
 
 **Bases de datos** `PostgreSQL` `MySQL`
-
-**Seguridad** `TLS/SSL` `Certificados digitales` `PTES` `OWASP` `Hardening` 
 
 ---
 
