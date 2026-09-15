@@ -25,6 +25,8 @@ Administro sistemas críticos en producción y despliego mis propios proyectos e
 
 **Sistemas & Redes** `Linux` `Windows Server` `Networking` `Bash` `PowerShell`
 
+**IA & Agentes** `LangGraph` `LLM` `Agentes` `RAG` `APIs de IA`
+
 **Observabilidad & Automatización** `Grafana` `n8n` `GLPI`
 
 **Seguridad** `TLS/SSL` `PKI` `Hardening` `OWASP` `PTES`
