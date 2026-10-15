@@ -4,7 +4,7 @@
 
 Administro sistemas críticos en producción y despliego mis propios proyectos en un clúster Kubernetes autogestionado.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mfigueroa23) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/marcoo_f23) [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mfigueroa@devsonic.cl) [![Website](https://img.shields.io/badge/devsonic.cl-000000?logo=vercel&logoColor=white)](https://devsonic.cl)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mfigueroa23) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/marcoo_f23) [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:marco@figueroa-sanchez.com) [![Website](https://img.shields.io/badge/Portfolio-F38020?logo=Cloudflare&logoColor=white)](https://marco.figueroa-sanchez.com)
 
 ---
 
